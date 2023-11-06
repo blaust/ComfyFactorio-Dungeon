@@ -5,7 +5,7 @@ require 'modules.satellite_score'
 require 'modules.charging_station'
 
 -- Tuning constants
-local MIN_ROOMS_TO_DESCEND = 100
+local MIN_ROOMS_TO_DESCEND = 50
 
 local MapInfo = require 'modules.map_info'
 local Room_generator = require 'functions.room_generator'
